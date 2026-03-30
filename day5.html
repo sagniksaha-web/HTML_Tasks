@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Document</title>
+</head>
+<body>
+    <caption><b>Form Creation</b></caption><br><br>
+    <form>
+        <label for="fname">Full Name:</label>
+        <input type="text" name="firstname" placeholder="Enter your First Name" id = "fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lastname" placeholder="Enter your Last Name" id = "lname"><br><br>
+        <label for="mail">Email:</label>
+        <input type="email" name="mail" placeholder="Enter your Gmail" id = "mail"><br><br>
+        <label for="pwd">Password</label>
+        <input type="password" name="pass" placeholder="Enter your Password" id = "pwd"><br><br>
+        <label for="ct">Enter count:</label>
+        <input type="number" name="number" id="ct" in = "0" max = "10" placeholder="0"><br><br>
+        <label for="dob">Enter your date of birth:</label>
+        <input type="date" name="dob" id="dob"><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="male" id="m" value="Male">
+        <label for="m">Male</label>
+        <input type="radio" name="female" id="f" value="Female">
+        <label for="f">Female</label><br><br>
+        <label>Choice:</label>
+        <input type="checkbox" name="choice1" id="c1" value="choice1">
+        <label for="c1">Choice 1:</label>
+        <input type="checkbox" name="Choice2" id="c2" value="Choice2">
+        <label for="c2">Choice 2:</label><br><br>
+        <label>Time:</label>
+        <input type="time" name="time" id="t"><br><br>
+        <label for="img">Single Image:</label>
+        <input type="file" name="Image" id="img"><br><br>
+        <label for="images">Multiple images:</label>
+        <input type="file" name="images" id="images" multiple> <br><br>
+        <label>Color:</label>
+        <input type="color" name="colour" id="color"><br><br>
+        <label for="range">Range:</label>
+        <input type="range" name="range" id="range" min = "1" max = "100"><br><br>
+        <label>Message:</label>
+        <textarea name="msg" id="msg" rows="10" cols="100" placeholder="Enter your message"></textarea>
+        <br><br>
+        <label for="city">City:</label>
+        <select name="city" id="city">
+            <optgroup label="North">
+                <option value="Siliguri">Siliguri</option>
+            </optgroup>
+            <optgroup label="South">
+                <option value="Kolkata">Kolkata</option>
+                <option value="Kalyani">Kalyani</option>
+            </optgroup>
+        </select><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

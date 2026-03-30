@@ -1,0 +1,341 @@
+<html>
+    <head>
+        <title>Table Document</title>
+    </head>
+    <body>
+         <table border="1" cellspacing = "0" cellpadding = "5">
+            <thead align="center">
+                <tr>
+                    <th>Level 1</th>
+                    <th>Level 2</th>
+                    <th>Level 3</th>
+                    <th>Info</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td rowspan="6">System</td>
+                    <td rowspan="4">System Apps</td>
+                    <td rowspan="3">SystemEnv</td>
+                    <td>App Test</td>
+                    <td>foo</td>
+                </tr>
+                <tr>
+                    <td>App Test</td>
+                    <td>foo</td>
+                </tr>
+                <tr>
+                    <td>App Test</td>
+                    <td>bar</td>
+                </tr>
+                <tr>
+                    <td>SystemEnv2</td>
+                    <td>App Test</td>
+                    <td>bar</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">System Memory</td>
+                    <td rowspan="2">Memory Test</td>
+                    <td>Memory Func</td>
+                    <td>foo</td>
+                </tr>
+                <tr>
+                    <td>Apes Test</td>
+                    <td>foo</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table border="1" cellspacing = "0" cellpadding = "5">
+            <thead align="center">
+                <tr>
+                    <th>Build Name</th>
+                    <th>Table name</th>
+                    <th>Queries</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td rowspan="4">Build Name <br>1</td>
+                    <td rowspan="2">Table name <br>1</td>
+                    <td>query 1</td>
+                </tr>
+                <tr>
+                    <td>query 2</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Table name <br>2</td>
+                    <td>query 1</td>
+                </tr>
+                <tr>
+                    <td>query 2</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h3>Time Table</h3>
+        <table border="1" cellspacing = "0" cellspadding = "5">
+            <thead align="center">
+                <tr>
+                    <th>Day/Period</th>
+                    <th>I <br> 9:30- <br>10:20</th>
+                    <th>II <br>10:20- <br>11:10</th>
+                    <th>III <br>12:00- <br>12:40</th>
+                    <th>12:00-<br>12:40</th>
+                    <th>IV <br>12:40- <br>1:30</th>
+                    <th>V <br>1:30- <br>2:20</th>
+                    <th>VI <br>2:20- <br>3:10</th>
+                    <th>VII <br>3:10- <br>4:00</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>Monday</td>
+                    <td>Eng</td>
+                    <td>Mat</td>
+                    <td>Chem</td>
+                    <td rowspan="5">LUNCH</td>
+                    <td colspan="3">LAB</td>
+                    <td>Phy</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td colspan="3">LAB</td>
+                    <td>Eng</td>
+                    <td>Chem</td>
+                    <td>Mat</td>
+                    <td>SPORTS</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Mat</td>
+                    <td>Phy</td>
+                    <td>Eng</td>
+                    <td>Chem</td>
+                    <td colspan="3">LIBRARY</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Phy</td>
+                    <td>Eng</td>
+                    <td>Chem</td>
+                    <td colspan="3">LAB</td>
+                    <td>Mat</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Phy</td>
+                    <td>Eng</td>
+                    <td>Chem</td>
+                    <td colspan="3">LAB</td>
+                    <td>Mat</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+         <h3>My Multi Level Table</h3>
+        <table border="1" cellpadding = "5" cellspacing = "0">
+            <thead align="center">
+                <tr>
+                    <th rowspan="2" colspan="2">Column 0</th>
+                    <th rowspan="2">Column 1</th>
+                    <th colspan="2">Column 2</th>
+                </tr>
+                <tr>
+                    <th>Column 2a</th>
+                    <th>Column 2b</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td rowspan="2">Row 1</td>
+                    <td>Row 1a</td>
+                    <td>123</td>
+                    <td>456</td>
+                    <td>789</td>
+                </tr>
+                <tr>
+                    <td>Row 1b</td>
+                    <td>123</td>
+                    <td>456</td>
+                    <td>789</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Row 2</td>
+                    <td>123</td>
+                    <td>456</td>
+                    <td>789</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h4>Table with column and row spanned:</h4>
+        <table border="1" cellpadding = "5" cellspacing = "0">
+            <thead align="center">
+                <tr>
+                    <th>Logo</th>
+                    <th colspan="3">Top Menu</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td rowspan="2">Side Menu</td>
+                    <td>World News</td>
+                    <td>Financial</td>
+                    <td rowspan="2">List of Ads</td>
+                </tr>
+                <tr>
+                    <td>Technology</td>
+                    <td>Sports</td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">Footer</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+         <table border="1" cellspacing = "0" cellpadding = "5">
+            <thead align="center">
+                <tr>
+                    <td colspan="10">Table A(2b) <br><b>Attributable Ownership Interest by Ethnicity</b><br>
+                    Stations with One or More Attributable Persons <br>Full Power Commercial Television Stations - 2013</td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="3">Ethnicity</td>
+                    <td colspan="8">No. of Stations and Percent of Total</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Nationality</b></td>
+                    <td colspan="2">Nielsen <br>DMA 1-50</td>
+                    <td colspan="2">DMA <br>51-100</td>
+                    <td colspan="2">DMA <br>100+</td>
+                </tr>
+                <tr>
+                    <td>No.</td>
+                    <td>%</td>
+                    <td>No.</td>
+                    <td>%</td>
+                    <td>No.</td>
+                    <td>%</td>
+                    <td>No.</td>
+                    <td>%</td>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td rowspan="3">Hispanic or Latino</td>
+                    <td>Female</td>
+                    <td>96</td>
+                    <td>7.7</td>
+                    <td>69</td>
+                    <td>14.8</td>
+                    <td>9</td>
+                    <td>2.7</td>
+                    <td>18</td>
+                    <td>4.1</td>
+                </tr>
+                <tr>
+                    <td>Male</td>
+                    <td>274</td>
+                    <td>22.1</td>
+                    <td>153</td>
+                    <td>32.9</td>
+                    <td>56</td>
+                    <td>17.0</td>
+                    <td>65</td>
+                    <td>14.6</td>
+                </tr>
+                <tr>
+                    <td><b>Total</b></td>
+                    <td><b>322</b></td>
+                    <td><b>26.0</b></td>
+                    <td>189</td>
+                    <td>40.6</td>
+                    <td>64</td>
+                    <td>19.4</td>
+                    <td>69</td>
+                    <td>15.5</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Non-Hispanic or Latino</td>
+                    <td>Female</td>
+                    <td>984</td>
+                    <td>79.4</td>
+                    <td>404</td>
+                    <td>86.9</td>
+                    <td>273</td>
+                    <td>82.7</td>
+                    <td>307</td>
+                    <td>69.1</td>
+                </tr>
+                <tr>
+                    <td>Male</td>
+                    <td>1,201</td>
+                    <td>96.9</td>
+                    <td>458</td>
+                    <td>98.5</td>
+                    <td>327</td>
+                    <td>99.1</td>
+                    <td>416</td>
+                    <td>93.7</td>
+                </tr>
+                <tr>
+                    <td><b>Total</b></td>
+                    <td><b>1,210</b></td>
+                    <td><b>97.7</b></td>
+                    <td>460</td>
+                    <td>98.9</td>
+                    <td>329</td>
+                    <td>99.7</td>
+                    <td>421</td>
+                    <td>94.8</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total Stations</td>
+                    <td>1,239</td>
+                    <td>100%</td>
+                    <td>465</td>
+                    <td>100%</td>
+                    <td>330</td>
+                    <td>100%</td>
+                    <td>444</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Insufficient data</td>
+                    <td>147</td>
+                    <td>---</td>
+                    <td>75</td>
+                    <td>---</td>
+                    <td>30</td>
+                    <td>---</td>
+                    <td>42</td>
+                    <td>---</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Stations not filled</td>
+                    <td>1</td>
+                    <td>---</td>
+                    <td>0</td>
+                    <td>---</td>
+                    <td>0</td>
+                    <td>---</td>
+                    <td>1</td>
+                    <td>---</td>
+                </tr>
+                <tr>
+                    <td colspan="2">All licensed stations</td>
+                    <td>1,387</td>
+                    <td>---</td>
+                    <td>540</td>
+                    <td>---</td>
+                    <td>360</td>
+                    <td>---</td>
+                    <td>487</td>
+                    <td>---</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
